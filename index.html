@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,19 +33,11 @@
 		<link rel="stylesheet" href="css/base.css" />
 		<link rel="stylesheet" href="css/light.css" />
 		<link rel="stylesheet" href="css/main.css"/>
-	
-		
 		<!--Morph BTN overlay styles -->
 		<link rel="stylesheet" type="text/css" href="css/content.css" />
-
-
-
 </head>
 <body>
-  
-<div class="container">
-
-		
+	<div class="container">	
 		<!-- FB Share btn -->
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
@@ -64,7 +57,7 @@
    	<nav id="main-nav" class="main-nav menu">
    		<ul class="m1">
    			<li data-section="section1" class="nav-white"><a >Home</a></li>
-   			<li data-section="section2" class="nav-white"><a >Work</a></li>
+   			<li data-section="section2" class="nav-white"><a href = "#work">Work</a></li>
    			<li data-section="section3" class="nav-white"><a >About</a></li>
    			<li data-section="section4" class="nav-white"><a >Contact</a></li>			
 		</ul>
@@ -82,108 +75,74 @@
 					</div>
 
 					<!--Start a carousel to display my work-->
-					<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					<!--Wrapper for the slides-->
-					<div class="carousel-inner" role="listbox">
-						<div class="item active">
-						<div class = "morph-button morph-button-overlay morph-button-fixed">
-										<button type = "button" class = "workbtn">
-											<div class = "btncopy">
-												<span class="btntitle">Simple drawings with JavaScript</span>
-												</div><a id = "face" href="My_Work/JavaScript/Drawings/index.html"><img style="width:550px;height:350px" src="img/drawings.png" alt = "Drawing in JS"></a>
-						</div>
-
-						<div class="item">
-						<div class = "morph-button morph-button-overlay morph-button-fixed">
-										<button type = "button" class = "workbtn">
-											<div class = "btncopy">
-												<span class="btntitle">Simple clock in JavaScript</span>
-												</div><a id = "clock" href="My_Work/Clock/index.html"><img style="width:550px;height:350px" src="img/tempus.png" alt = "Clock"></a>
-						</div>
-						<div class="item">
-						<div class = "morph-button morph-button-overlay morph-button-fixed">
-										<button type = "button" class = "workbtn">
-											<div class = "btncopy">
-												<span class="btntitle">Multi-page Responsive Website</span>
-											</div><a id = "yogila_work" href="My_Work/Yogila/index.html"><img style="width:550px;height:350px" src="img/yogila.png" alt="Yogila Home Page"></a>
-						</div>
-						<div class="item">
-						<div class = "morph-button morph-button-overlay morph-button-fixed">
-										<button type = "button" class = "workbtn">
-											<div class = "btncopy">
-												<span class="btntitle">One-page Portfolio for a client</span>
-												</div><a id = "tango-work" href="My_Work/Tango_Portfolio/index.html"><img style="width:550px;height:350px" src="img/tango.png" alt = "Tango Home Page"></a>
-						</div>
-					<!--
+					
 					<div id="work">
-						<section class="section section2">
-							<div class="work_content">
-								<table>
-								<tbody>
-									<tr>
-									<td>
+						<section class="section section1">
+							<div class="container">
+							<br>
+								<div id="myCarousel" class="carousel slide" data-ride="carousel">
+								<!--Indicators-->
+								<ol class="carousel-indicators">
+									<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#myCarousel" data-slide-to="1">
+									<li data-target="#myCarousel" data-slide-to="2">
+									<li data-target="#myCarousel" data-slide-to="3">
+								</ol>
+								<!--Wrapper for the slides-->
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
 										<div class = "morph-button morph-button-overlay morph-button-fixed">
-										<button type = "button" class = "workbtn">
-											<div class = "btncopy">
-												<span class="btntitle">Simple drawings with JavaScript</span>
-												</div><a id = "face" href="My_Work/JavaScript/Drawings/index.html"><img style="width:550px;height:350px" src="img/drawings.png" alt = "Drawing in JS"></a>
-									</td>
-
-									<td>
+											<button type = "button" class = "workbtn">
+												<div class = "btncopy">
+													<span class="btntitle">Simple drawings with JavaScript</span>
+												</div>
+													<a id = "face" href="My_Work/JavaScript/Animation/index.html"><img style="width:550px;height:350px" src="img/cloud.png" alt = "Drawing in JS"></a>
+										</div>
+									</div>
+									<div class="item">
+										<div class="morph-button morph-button-overlay morph-button-fixed">
+											<button type = "button" class = "workbtn">
+												<div class = "btncopy">
+													<span class="btntitle">Simple clock in JavaScript</span>
+												</div>
+													<a id = "clock" href="My_Work/Clock/index.html"><img style="width:550px;height:350px" src="img/tempus.png" alt = "Clock"></a>
+										</div>
+									</div>
+									<div class="item">
 										<div class = "morph-button morph-button-overlay morph-button-fixed">
-										<button type = "button" class = "workbtn">
-											<div class = "btncopy">
-												<span class="btntitle">Simple clock in JavaScript</span>
-												</div><a id = "clock" href="My_Work/Clock/index.html"><img style="width:550px;height:350px" src="img/tempus.png" alt = "Clock"></a>
-									</td>
-
-</tbody>
-								</table>
-
-										
-										<td>
-																		<div class = "morph-button morph-button-overlay morph-button-fixed">
-										<button type = "button" class = "workbtn">
-											<div class = "btncopy">
-												<span class="btntitle">Multi-page Responsive Website</span>
-											</div><a id = "yogila_work" href="My_Work/Yogila/index.html"><img style="width:550px;height:350px" src="img/yogila.png" alt="Yogila Home Page"></a></td>
-										
-										
-										
-										<td>
+											<button type = "button" class = "workbtn">
+												<div class = "btncopy">
+													<span class="btntitle">Multi-page Responsive Website</span>
+												</div>
+													<a id = "yogila_work" href="My_Work/Yogila/index.html"><img style="width:550px;height:350px" src="img/yogila.png" alt="Yogila Home Page"></a>
+										</div>
+									</div>
+									<div class="item">
 										<div class = "morph-button morph-button-overlay morph-button-fixed">
-										<button type = "button" class = "workbtn">
-											<div class = "btncopy">
-												<span class="btntitle">One-page Portfolio for a client</span>
+											<button type = "button" class = "workbtn">
+												<div class = "btncopy">
+													<span class="btntitle">One-page Portfolio for a client</span>
 												</div><a id = "tango-work" href="My_Work/Tango_Portfolio/index.html"><img style="width:550px;height:350px" src="img/tango.png" alt = "Tango Home Page"></a>
-										</td>
-										
-										
-									</tr>
-								</tbody>
-								</table>
+										</div>
+									</div>
 								</div>
-								</section>
-					<!--
-						<section class="section section2">
-							<div class="work_content">
-									<div class = "morph-button morph-button-overlay morph-button-fixed">
-										<button type = "button" class = "workbtn">
-											<div class = "btncopy">
-												<span class="btntitle">Recreating a PSD</span>
-											</div>
-									
-							<a id ="pico_work" href="My_Work/PSD/index.html"><img src="img/bubble_general.png" width = "450" height = "300"></a>
-									</button>
+
+								<!--Left and right controls-->
 								
-								
-									<a id = "yogila_work" href="My_Work/Yogila/index.html"><img src="img/yogila.png" width = "450" height = "300"></a>
-									<a id = "tango-work" href="My_Work/Tango_Portfolio/index.html"><img src="img/tango.png" width = "400" height = "300"></a>
-								
-							</div> 
-						</section>
-					</div> 
-					-->	
+								<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+								</div>
+							</div>
+						
+					</section>
+				</div> <!--Close Work-->
+						
 					<div id="about" >
 						<section class="section section3">
 							
@@ -295,7 +254,9 @@
 		
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>	
 		
@@ -395,10 +356,10 @@
 	    ga('send', 'pageview');
 
 	  </script>
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		  
 </div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 </body>
 </html>

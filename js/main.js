@@ -1,4 +1,9 @@
 
+
+var navEls = document.getElementsByTagName("ul");
+for(var i = 0; i < navEls.length; i++) {
+	navEls[i].innerHTML.style.color = "white";
+}
 var carouselEl = document.querySelector("#myCarousel");
 carouselEl.style.background = "salmon";
 var c = document.getElementById("canvas1");

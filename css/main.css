@@ -1,212 +1,38 @@
-.fa{
-  font-size: 5em;
-  margin left: 40%;
-  text-align: center;
-	width: 110%%;
-}
-.btn{
-  
-  display: inline;
-}
-#contact{
-				text-align:center;
-				display:block;
-				padding-top:35px;
-				padding-bottom:0px;
-				height: 40px;
-			}
-			
-				#contact section{
-					background-color:#FFFFFF;
-				}
-						#contact .content{
-							position:relative;
-							padding-top:50px;
-							padding-bottom: 10px;
-							margin-top:0;
-							margin-bottom:0;
-							
-						}	
-						#contact .title{
-							font-size: 20px;
-              font-family:Helvetica;
-							max-width: 700px;
-							line-height: 60px;
-							margin-left: 0px;
-							text-align: center;
-							margin: 0 auto;
-						}
-#image{ 
-    line-height:143px;
-    width: 40%;
-    height: 40%;
-    border:5px solid black;
-    margin-top: 2%;
-    margin-left: 25%;
-    background-color: #8e68ff;
-    background-image: url('');
-    background-repeat: no-repeat;
-    color: pink;
-    font-weight: 700;
-    background-size: 100%;
-    margin-bottom:25px;
-    font-size: 100%;
-    text-align: center;
-}
-.preview{
-        width: 10%;
-        margin-top: 2%;
-        margin-left:40%;
-        border: 10px solid black;
-}
-nav{
-	border: 1px solid #06425C;
-	color:#06425C;
-	background-color: #FFFFFF;
-	overflow: auto;
-	padding-left:6%;
-	}
-nav a{
-	box-sizing:border-box;
-	/*for small screens, I want the nav bar    to be displayed horizontally, so I use inline-block*/
-  display:inline-block; 
-	line-height:45px;
-	height:60px;
-  /*for small screens, I want everything to be plain and simple, with not too much color*/
-	color:#FFFFFF
-	background-color:#486B02;
-	text-decoration:none;
-	margin:10% 2% 1% 8%;
-	padding: 1% 2%;
-	border-radius: 25px;	
-}
-main{
-	width: 95%;
-	margin: 0 auto;
-}
 
-body{
-	margin: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 13px;
-	font-weight: normal;
-	color: #404040;
+.form
+{
+	padding: 0px 0px 0px; 
 }
-h1, h2, h3{
+.form-search-input
+{
+	width: 0px;
+	height: 55px;
+	border: 0;
+	outline: 0;
+	font-size: 21px;
+	padding: 0px 0px 0px 0px;
+	color: #151515;
+}
+h1{
+  font-family: lobster, Monospace;
+  color: rgb(250, 200, 235);
+}
+.search-input-open
+{
+	width: 40% !important;
+	padding: 0px 0px 0px 40px !important;
+	display: initial !important;
+}
+.form-search-submit
+{
+	display: inline-block;
+	width: 55px;
+	height: 43px;
+	border: 0;
+	outline: 0;
+	background-color: #151515;
+	font-size: 21px;
+	color:white;
+	cursor: pointer;
 	text-align: center;
-	width: 110%%;
-	font-family: verdana;
 }
-
-
-/*As the screen size increases, I want the pictures to start take up more space (they start all stuck on top of each other in small screens*/
-@media screen and (min-width: 630px) {
-	.picture{
-		margin-left: 30%;
-	}
-	
-	}
-  #image{
-    line-height:200px;
-  }
-  .preview{
-    margin-top: 5%;
-  }
-  /*I have a few different breakpoints, so people with different screen sizes can see different things*/
-@media screen and (min-width: 760px) {
-
-   #image{
-    line-height:300px;
-  }
-  .preview{
-    margin-top: 4%;
-  }
-}
-@media all and (min-width: 900px) {
-	body{
-		background-color: grey;
-	}
-	nav{
-		border: 1px solid #000000;
-		color:#06425C;
-		background-color: pink;
-		display:inline-block;
-		width: 15%;
-		min-width: 110px;
-		margin-right: 10px;
-		height:250vh;
-		float:left;
-		font-size:2em;
-	}
-	nav a{
-		box-sizing:border-box;
-		line-height:60px;
-		color:#FFFFFF
-		background-color:#486B02;
-		text-decoration:none;
-		text-align: center;
-		border-radius: 25px;
-		font-size: 0.7em;	
-}  
-  #contact section{
-					background-color:pink;
-				}	
-   #image{
-    line-height:300px;
-  }
-  .preview{
-    margin-top: 2%;
-    margin-left: 30%;
-  }
-}
-  @media screen and (min-width: 1020px) {
-
-	h2{
-		font-size: 160%
-	}
-#image{ 
-    line-height:143px;
-    width: 40%;
-    height: 40%;
-    border:5px solid black;
-    margin-top: 2%;
-    margin-left: 25%;
-    background-color: #8e68ff;
-    background-image: url('');
-    background-repeat: no-repeat;
-    color: pink;
-    font-weight: 700;
-    background-size: 100%;
-    margin-bottom:25px;
-    font-size: 100%;
-    text-align: center;
-}
-.preview{
-        width: 5%;
-        margin-top: 2%;
-        margin-left: 10%
-        border: 10px solid black;
-}
-nav{
-		border: 1px solid #000000;
-		color:#06425C;
-		background-color: pink;
-		display:inline-block;
-		width: 15%;
-		min-width: 110px;
-		margin-right: 10px;
-		height:250vh;
-		float:left;
-		font-size:2em;
-	}
-	nav a{
-		box-sizing:border-box;
-		line-height:60px;
-		color:#FFFFFF
-		background-color:#486B02;
-		text-decoration:none;
-		text-align: center;
-		border-radius: 25px;
-		font-size: 0.7em;	
-}  
-  }

@@ -29,22 +29,7 @@
   <link rel="stylesheet" href="css/main.css"> 
  
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type = "text/javascript">
-      jQuery(function($)
-      {
-        $('#search-trigger').click(function()
-          {$('#search-input').toggleClass('search-input-open');
-        });
-
-      $(document).click(function(e)
-      {
-        if(!$(e.target).closest('.ngen-search-form').length)
-        {
-          $('#search-input').removeClass('search-input-open');
-        }
-      })
-      })
-    </script>
+ 
 </head>
 
 <body>
@@ -53,36 +38,36 @@
 <h1 class="blue-text text-center">FCC - Wikipedia Viewer</h1>
   <div>
       <div class = "form">
-        <form class = "form-search ngen-search-form" action = "" method = "get">
+        <form class = "text-center form-search ngen-search-form" action = "https://en.wikipedia.org/wiki/Main_Page" method = "get">
           <input type = "text" name = "q" id = "search-input" class = "form-search-input" placeholder="Search" dir = "ltr">
             <span id = "search-trigger" class = "form-search-submit">&#x1f50e;</span>
         </form>
       </div>
-
-  
-
-    <div class = "row text-center">
-      <div class = "col-xs-12">
-      
-  
-       
+          <div class = "text-center">
+        <button class = "text-center" id = "btn">Click to search</button>
+        <button class = "text-center" id = "btn">Random article</button>
       </div>
-    </div>
+  
+      <div class = "text-center" id = "show_results"></div>
+
+   
   
 
 </div><!--Ends container-fluid-->
+<footer class = "text-center">Many thanks to <a href = "https://www.youtube.com/watch?v=9BPVXeakWFk&t=188s" target="_blank">Webelite, </a> <a href = "https://www.youtube.com/watch?v=9BPVXeakWFk&t=188s">LearnWebCode</a></footer>
 
-   
 
   
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
  
    
     <!-- Latest compiled and minified JavaScript -->
-    <!--
+    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <script src="js/bootstrap.min.js"></script>
+   
     <script  src = "js/main.js"></script>
-    -->
+    
   </body>  
 

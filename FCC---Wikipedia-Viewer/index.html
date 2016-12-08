@@ -38,23 +38,29 @@
 <h1 class="blue-text text-center">FCC - Wikipedia Viewer</h1>
   <div>
       <div class = "form">
-        <form class = "text-center form-search ngen-search-form" action = "https://en.wikipedia.org/wiki/Main_Page" method = "get">
-          <input type = "text" name = "q" id = "search-input" class = "form-search-input" placeholder="Search" dir = "ltr">
+        <form class = "text-center form-search ngen-search-form" >
+          <input type = "text" name = "q" id = "search_input" class = "form-search-input" placeholder="Search" dir = "ltr">
             <span id = "search-trigger" class = "form-search-submit">&#x1f50e;</span>
         </form>
       </div>
           <div class = "text-center">
-        <button class = "text-center" id = "btn">Click to search</button>
-        <button class = "text-center" id = "btn">Random article</button>
+        <button class = "text-center btn" id = "search_btn">Click icon to search</button>
+        <!--Target specifies where to open the linked document. _blank specifies to open it in a new window or tab-->
+        </div>
+        <div class ="text-center">
+         <button class = "text-center btn" id = "btn"><a target = "_blank" href = "http://en.wikipedia.org/wiki/Special:Random">I'm actually in the mood for a random article</button></a>
+         </div>
       </div>
   
-      <div class = "text-center" id = "show_results"></div>
+      <ul id = "show_results"></div>
+      </ul>
 
    
   
 
 </div><!--Ends container-fluid-->
-<footer class = "text-center">Many thanks to <a href = "https://www.youtube.com/watch?v=9BPVXeakWFk&t=188s" target="_blank">Webelite, </a> <a href = "https://www.youtube.com/watch?v=9BPVXeakWFk&t=188s">LearnWebCode</a></footer>
+<footer class = "text-center">Many thanks to <a class = "thanks" href = "https://www.youtube.com/watch?v=9BPVXeakWFk&t=188s" target="_blank">Webelite / </a>  <a class ="thanks" href = "https://www.youtube.com/watch?v=dRZxQY2RgUA">Coding Tutorial 350</a></footer>
+
 
 
   
@@ -67,7 +73,11 @@
 
     <script src="js/bootstrap.min.js"></script>
    
-    <script  src = "js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.1.0/superagent.min.js"></script>
+    <script src="js/main.js"></script>
     
+   <!--
+    <script  src = "js/test.js"></script>
+-->
   </body>  
 
